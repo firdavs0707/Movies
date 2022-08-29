@@ -33,10 +33,9 @@
 
 // vazifa 3
 
-// let a = 'sdvf afvsdfvblkasd vfdbgfhfh aefvrnfasvs fdgdttg'
+// let a = "Mening vatanim O'zbekiston!"
 // let arr = [];
 
-// if (a) {
 //   let res = a.split(' ')
 //   arr.push(res)
 
@@ -44,29 +43,22 @@
 
 //   res2.pop()
 //   res2.shift()
-//   console.log(res2.join(', '))
-//}
+//   console.log(res2.join(' '))
 
 // vazifa 4
   
-  // let a = '23 56 -38 -34 -48';
-  // let arr = [];
+// let arr = [1, -4, 7, 20];
+// let zeroNum = 0;
 
-  // arr.push(a);
-
-  // for (let i = 0; i < arr.length; i++) {
-  //     let res = arr[i].split(' ');
-  //     let arr2 = [];
-  //     arr2.push(res)
-  //     for (let i = 0; i < arr2.length; i++) {
-  //         console.log(arr2[i])
-  //     }
-
-  // }
+// for(let i = 0; i < arr.length; i++) {
+//   if(arrayNum[i] > 0) {
+//     zeroNum = zeroNum + Number(arr[i]);
+//   }
+// }
+// console.log(zeroNum);
 
 // vazifa 5
 
-// let a = 'Firdavs';
 // let x = 5;
 // let arr = [];
 
