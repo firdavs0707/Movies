@@ -11,8 +11,6 @@ const findFilm = (searchVal, arr) => {
 
 let input = $('.js-input');
 
-input.classList.add('text-capitalize')
-
 input.value = '';
 
 
