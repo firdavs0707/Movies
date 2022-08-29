@@ -11,12 +11,13 @@ const findFilm = (searchVal, arr) => {
 
 let input = $('.js-input');
 
+input.classList.add('text-capitalize')
+
 input.value = '';
 
 
 input.addEventListener('change', (evt) => {
   evt.preventDefault();
-  input.classList.add('text-upperCase')
   findFilm(input.value, movies);
 
 
