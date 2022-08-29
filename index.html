@@ -29,6 +29,61 @@
         transform: scale(1.05);
         cursor: pointer;
       }
+
+      .ball {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        border-radius: 50%;
+        display: block;
+        margin-top: 200px;
+        position: relative;
+        margin-right: 100px;
+      
+        animation-name: ball;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        animation-fill-mode: backwards;
+      }
+
+      @keyframes ball{
+        0% {
+          left: 200px;
+          background-color: rgb(7, 1, 54);
+        }
+        10% {
+          background-color: yellow;
+        }
+        20% {
+          background-color: rgb(7, 1, 54);
+        }30% {
+          background-color: red;
+        }
+        40% {
+          background-color: rgb(7, 1, 54);
+        }
+        50% {
+          background-color: green;
+        }
+        60% {
+          background-color: rgb(7, 1, 54);
+        }
+        70% {
+          background-color: purple;
+        }
+        80% {
+          background-color: rgb(7, 1, 54);
+        }
+        90% {
+          background-color: goldenrod;
+        }
+        100% {
+          background-color: rgb(7, 1, 54);
+          left: -200px;
+        }
+      }
     </style>
 </head>
 <body>
@@ -36,7 +91,10 @@
   <input type="text" class="js-input mb-4 d-block mx-auto bg-secondary fs-4 border-0 text-light">
   <p class="js-output text-center text-light mb-2 fs-3"></p>
   <div class="container">
-    <div class="d-block mx-auto">
+    <div class="animation">
+      <div class="js-animation ball mx-auto"></div>
+    </div>
+    <div class="d-block">
       <ul class="js-list d-flex justify-content-center flex-wrap list-unstyled">
       
       </ul>

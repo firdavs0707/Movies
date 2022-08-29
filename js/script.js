@@ -1,5 +1,6 @@
 let list = $('.js-list');
 var resArr = [];
+let animation = $('.js-animation')
 
 const findFilm = (searchVal, arr) => {
   let res = arr.filter((el) => el.title.includes(searchVal));
@@ -18,7 +19,7 @@ input.addEventListener('change', (evt) => {
   evt.preventDefault();
   findFilm(input.value, movies);
 
-
+  animation.classList.add('d-none')
 
   resArr.forEach(liv => {
     for (let i = 0; i < liv.length; i++) {
@@ -66,16 +67,3 @@ input.addEventListener('change', (evt) => {
   });
   
 })
-
-
-// 
-// 
-// 
-
-
-
-
-  
-
-  
-
